@@ -147,11 +147,11 @@ public class Basics {
          */
         StringBuilder ret = new StringBuilder();
 
-//        // Fill in the rest of the body here
-//        text = to_split.split(" ", 7);
-//        for (int i = 0; i < 7; i++){
-//            ret.append(text[i].charAt(0));
-//        }
+        // Fill in the rest of the body here
+        String[] text = to_split.split(" ", 7);
+        for (int i = 0; i < 7; i++){
+            ret.append(text[i].charAt(0));
+        }
 
         return ret.toString();
     }
